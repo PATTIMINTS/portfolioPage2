@@ -42,7 +42,7 @@ img {
   width: 800px;
 }
 
-.card-img-top {
+.port {
   height: 400px;
 }
 .container {
@@ -54,9 +54,11 @@ img {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
   font-size: 18px;
   font-weight: bold;
+  font-family: 'Monoton', cursive;
+  letter-spacing: 12px;
+  animation: moveInRight 2s ease-out;
   
   
 
