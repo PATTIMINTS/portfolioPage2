@@ -89,3 +89,13 @@ img {
   }
 }
 
+footer {
+  display: inline-block;
+  font-family: 'Monoton', cursive;
+}
+a {
+  color: gray;
+}
+.foot {
+  margin-left: 20px;
+}
