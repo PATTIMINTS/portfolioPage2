@@ -40,32 +40,37 @@ a.nav-link {
 img {
   height: 700px;
   width: 800px;
+  
 }
 
 .port {
   height: 400px;
+  position: relative;
 }
 .container {
   width: 90%;
-  position: relative;
+  
 }
 .centered {
   position: absolute;
-  bottom: 10%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -30%);
   font-size: 18px;
   font-weight: bold;
   font-family: 'Monoton', cursive;
   letter-spacing: 12px;
   animation: moveInRight 2s ease-out;
+  
 }
 
   .newnav {
     padding-left: 280px;
   }
   
-  
+ div.card-body {
+   display: none;
+ } 
 
 
 .text {
@@ -80,6 +85,11 @@ img {
   font-family: 'Monoton', cursive;
   letter-spacing: 18px;
   animation: moveInRight 5s ease-out;
+}
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  margin-left: 400px;
+  color: rgb(107, 106, 106);
 }
 @keyframes moveInLeft {
   0% {
