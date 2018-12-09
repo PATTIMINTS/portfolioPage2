@@ -8,12 +8,24 @@ nav {
   
 }
 
+.jumbotron {
+  position: relative;
+  background-color: whitesmoke;
+
+}
+
 
 
 
 a.nav-link {
     color: rgb(100, 98, 98);
 
+}
+
+.bailey {
+  float: right;
+  height: 200px;
+  width: 200px;
 }
 
 img {
@@ -25,5 +37,45 @@ img {
 }
 .text {
   font-family: 'Monoton', cursive;
+  letter-spacing: 35px;
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+}
+
+.textTwo {
+  font-family: 'Monoton', cursive;
+  letter-spacing: 18px;
+  animation: moveInRight 5s ease-out;
+}
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }   
+
+  80% {
+      transform: translateX(10px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }   
+
+  80% {
+      transform: translateX(-10px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
 }
 
