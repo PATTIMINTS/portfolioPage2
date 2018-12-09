@@ -72,6 +72,14 @@ img {
    display: none;
  } 
 
+ #count {
+   margin-top: 100px;
+   
+ }
+ #kitty {
+   margin-top: 50px;
+ }
+
 
 .text {
   font-family: 'Monoton', cursive;
