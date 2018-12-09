@@ -59,10 +59,15 @@ img {
   font-family: 'Monoton', cursive;
   letter-spacing: 12px;
   animation: moveInRight 2s ease-out;
+}
+
+  .newnav {
+    padding-left: 280px;
+  }
   
   
 
-}
+
 .text {
   font-family: 'Monoton', cursive;
   letter-spacing: 35px;
