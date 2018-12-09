@@ -11,6 +11,10 @@ nav {
 .jumbotron {
   position: relative;
   background-color: whitesmoke;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  color: rgb(148, 143, 143);
 
 }
 
@@ -26,6 +30,12 @@ a.nav-link {
   float: right;
   height: 200px;
   width: 200px;
+  margin-left: 200px;
+}
+.display-4 {
+  font-family: 'Monoton', cursive;
+  font-size: 24px;
+
 }
 
 img {
