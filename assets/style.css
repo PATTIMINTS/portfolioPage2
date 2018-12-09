@@ -1,10 +1,11 @@
 nav {  
 
-  position: fixed;
+  
   font-family: 'Aclonica', sans-serif;
   position: fixed;
   top: 0;
   width: 100%;
+
   
 }
 
@@ -17,8 +18,6 @@ nav {
   color: rgb(148, 143, 143);
 
 }
-
-
 
 
 a.nav-link {
@@ -42,8 +41,25 @@ img {
   height: 700px;
   width: 800px;
 }
+
+.card-img-top {
+  height: 400px;
+}
 .container {
   width: 90%;
+  position: relative;
+}
+.centered {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  
+  
+
 }
 .text {
   font-family: 'Monoton', cursive;
