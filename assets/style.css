@@ -1,12 +1,22 @@
-nav.navbar {
-  position: sticky;  
-  margin-left: 75%;
+nav {  
+
+  position: fixed;
   font-family: 'Aclonica', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
   
 }
+
+
 
 a.nav-link {
     color: rgb(100, 98, 98);
 
+}
+
+img {
+  height: 700px;
+  width: 800px;
 }
 
