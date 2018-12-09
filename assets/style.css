@@ -10,6 +10,7 @@ nav {
 
 
 
+
 a.nav-link {
     color: rgb(100, 98, 98);
 
@@ -18,5 +19,11 @@ a.nav-link {
 img {
   height: 700px;
   width: 800px;
+}
+.container {
+  width: 90%;
+}
+.text {
+  font-family: 'Monoton', cursive;
 }
 
